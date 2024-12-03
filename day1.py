@@ -1022,7 +1022,7 @@ def reconcile_lists(input_lists: list[list[int]]) -> int:
     l2 = sorted(input_lists[1])
     result = 0
     for i in range(len(l1)):
-        result += + abs(l1[i] - l2[i])
+        result += abs(l1[i] - l2[i])
 
     return result
 
